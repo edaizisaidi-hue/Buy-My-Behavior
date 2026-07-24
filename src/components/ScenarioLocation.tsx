@@ -17,7 +17,7 @@ const PIN_SVG_URL = "/bmb-pin.svg";
 const KYIV: [number, number] = [50.4501, 30.5234];
 
 const MAPBOX_ACCESS_TOKEN =
-  "pk.eyJ1IjoiYnV5bXliaWhhdmlvciIsImEiOiJjbWM4MzU3cDQxZGJ0MnFzM3NnOHhnaWM4In0.wShhGG9EvmIVxcHjBHImXw";
+  "process.env.REACT_APP_MAPBOX_TOKEN";
 const MAPBOX_STYLE = `https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/{z}/{x}/{y}?access_token=${MAPBOX_ACCESS_TOKEN}`;
 
 const isFiniteLatLng = (lat: number, lng: number) =>
