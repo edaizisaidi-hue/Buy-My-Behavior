@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-DAXXjFlN.js";import{t}from"./vendor-supabase-CtZmmlBU.js";var n=e({supabase:()=>r}),r=t(void 0,void 0,{auth:{persistSession:!0,autoRefreshToken:!0,detectSessionInUrl:!0,flowType:`pkce`}});export{n,r as t};
